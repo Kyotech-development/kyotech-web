@@ -1,3 +1,6 @@
+#menu-container {
+    height: auto;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 10px;

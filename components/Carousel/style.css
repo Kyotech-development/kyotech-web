@@ -1,0 +1,10 @@
+#carousel {
+    margin-top: 216px;
+    position: fixed;
+}
+
+@media(max-width: 690px){
+    #carousel {
+        padding: 26px
+    }
+}

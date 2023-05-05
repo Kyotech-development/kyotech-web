@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Menu = () => (
-     <div>
+     <div id="menu-container">
           <nav className="navbar">
                <div className="logo">
                     <Link href="/">
