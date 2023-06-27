@@ -5,7 +5,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <main >
+    <main>
       <Head>
         <meta charSet="utf-8" />
         <meta name="robots" content="index, follow" />
@@ -26,12 +26,12 @@ export default function Home() {
             <img src="/assets/kyoTeam.png" className='w-[560px] max-[400px]:w-[300px]'/>
           </div>          
         </div >
-        <div >
-          <div className="px-10 md:px-60 py-10 text-center h-[400px] sm:h-[360px]" style={{ background: 'url(//superbiz.site/storage/5cdb1980bd9f058dff8137e5/independentes/crop/854a0b45536728b5aedad06aa4623f961557946865897.png) no-repeat center center' }}>
-            <div className="container center-align">
-              <h2 className="text-white text-md sm:text-3xl">Manutenção em equipamentos Médicos</h2>
+        <div>
+          <div className="px-10 md:px-60 py-10 text-center h-[400px] sm:h-[360px] " style={{ background: 'url(//superbiz.site/storage/5cdb1980bd9f058dff8137e5/independentes/crop/854a0b45536728b5aedad06aa4623f961557946865897.png) center center / cover no-repeat' }}>
+            <div className="flex flex-col text-center items-center">
+              <h2 className="text-white text-md sm:text-4xl">Manutenção em equipamentos Médicos</h2>
               <div className="mt-30"></div>
-              <p className="text-white mt-10 mb-6 text-sm sm:text-xl">
+              <p className="text-white mt-10 mb-6 text-sm sm:text-xl w-[800px]">
                 Trabalhamos com assistência técnica em aparelhos de endoscopia: videosgastroscopio, videocolonoscopio, duodenoscopios, enteroscopios, broncoscopios, assim como acessórios e aparelhos periféricos, equipamentos de limpeza e desinfecção entre outros..<br />
                 Mão de obra especializada e treinada para desenvolver o melhor trabalho, maior qualidade e durabilidade do mercado da região.
               </p>
@@ -40,67 +40,67 @@ export default function Home() {
           </div>
         </div>
         <div className="fundo center-align">
-        <div className="bg-green-200 mt-10">
+        <div className="mt-10">
           <div className="grid grid-cols-1 lg:grid-cols-12">
-            <div className="col-span-12">
+            <div className="col-span-12 flex justify-center flex-col items-center m-auto text-center">
               <h2 className="text-gray-700 font-semibold text-3xl">Nossos Serviços</h2>
               <div className="mt-6"></div>
               <p className="text-gray-700 text-xl">Conheça os nossos serviços!</p>
               <div className="mt-12"></div>
             </div>
-            <div className="col-span-12 lg:col-span-4">
-              <div className="imagem-redonda w-full" style={{ background: 'url("//superbiz.site/storage/5cdb1980bd9f058dff8137e5/independentes/crop/aa19bbf4cd85595b2c1072808066af311564778996798.png") center center / cover no-repeat', height: '361px' }}></div>
+            <div className="col-span-12 lg:col-span-4 flex justify-center flex-col items-center m-auto text-center">
+              <div className="rounded-full w-[361px]" style={{ background: 'url("//superbiz.site/storage/5cdb1980bd9f058dff8137e5/independentes/crop/aa19bbf4cd85595b2c1072808066af311564778996798.png") center center / cover no-repeat', height: '361px' }}></div>
               <div className="mt-5"></div>
               <h3 className="text-gray-700 font-semibold text-xl">Manutenção</h3>
               <div className="mt-5"></div>
               <p className="text-gray-700 text-base">Assistência técnica à equipamentos de manutenção.</p>
               <div className="mt-6"></div>
             </div>
-            <div className="col-span-12 lg:col-span-4">
-              <div className="imagem-redonda w-full" style={{ background: 'url("//superbiz.site/storage/5cdb1980bd9f058dff8137e5/independentes/crop/f4051d4ddbed2e5c5be02f03f313b6a51563991111116.jpeg") center center / cover no-repeat', height: '361px' }}></div>
+            <div className="col-span-12 lg:col-span-4 flex justify-center flex-col items-center m-auto text-center">
+              <div className="rounded-full w-[361px] " style={{ background: 'url("//superbiz.site/storage/5cdb1980bd9f058dff8137e5/independentes/crop/f4051d4ddbed2e5c5be02f03f313b6a51563991111116.jpeg") center center / cover no-repeat', height: '361px' }}></div>
               <div className="mt-5"></div>
               <h3 className="text-gray-700 font-semibold text-xl">Reparos emergenciais</h3>
               <div className="mt-5"></div>
               <p className="text-gray-700 text-base">Realizamos consertos e reparos simples, emergenciais no seu aparelho.</p>
               <div className="mt-6"></div>
             </div>
-            <div className="col-span-12 lg:col-span-4">
-              <div className="imagem-redonda w-full" style={{ background: 'url("//superbiz.site/storage/5cdb1980bd9f058dff8137e5/independentes/crop/5d67f2cb5927e7190356b0c0b79d1f8a1563568758235.png") center center / cover no-repeat', height: '361px' }}></div>
+            <div className="col-span-12 lg:col-span-4 flex justify-center flex-col items-center m-auto text-center">
+              <div className="rounded-full w-[361px] " style={{ background: 'url("//superbiz.site/storage/5cdb1980bd9f058dff8137e5/independentes/crop/5d67f2cb5927e7190356b0c0b79d1f8a1563568758235.png") center center / cover no-repeat', height: '361px' }}></div>
               <div className="mt-5"></div>
               <h3 className="text-gray-700 font-semibold text-xl">Contratos de Manutenção Preventiva e Corretiva</h3>
               <div className="mt-5"></div>
               <p className="text-gray-700 text-base">Temos o plano ideal para atender a sua empresa e seus aparelhos.</p>
               <div className="mt-6"></div>
             </div>
-            <div className="col-span-12">
+            <div className="col-span-12 flex justify-center flex-col align-center m-auto ">
               <div className="mt-6"></div>
-              <a className="btn-large center-block center-align bg-red-500 text-white rounded-md h-10 px-6 text-base" href="http://kyotech.superbiz.site/servicos">SAIBA MAIS</a>
+              <a className="btn-large center-block center-align bg-red-500 text-white rounded-md h-10 px-6 text-base text-center flex justify-center items-center" href="/services">SAIBA MAIS</a>
             </div>
           </div>
           </div>
         </div>
-        <div className="mt-10" style={{ background: 'url("//superbiz.site/storage/5cdb1980bd9f058dff8137e5/clientes/6cefb57e660bf4ab06eb9960f7a9e1dd1557936881842.png") no-repeat bottom left', backgroundSize: 'cover' }}>
-          <div className="container">
+        <div className="mt-10" style={{ background: 'url("//superbiz.site/storage/5cdb1980bd9f058dff8137e5/clientes/6cefb57e660bf4ab06eb9960f7a9e1dd1557936881842.png") center center / cover no-repeat', backgroundSize: 'cover' }}>
+          <div className="flex items-center m-auto justify-center">
             <div className="grid grid-cols-1 lg:grid-cols-12">
-              <div className="col-span-12">
+              <div className="col-span-12 mt-10 flex flex-col items-center justify-center m-auto">
                 <h2 className="text-white font-semibold text-3xl">Parceiros</h2>
-                <div className="mt-6"></div>
-                <p>Conheça as empresas que confiam no nosso serviço e atestam nossa qualidade.</p>
+                <div className="mt-6 "></div>
+                <p className='text-white'>Conheça as empresas que confiam no nosso serviço e atestam nossa qualidade.</p>
                 <div className="mt-12"></div>
               </div>
-              <a href="https://www.fujifilmamericas.com.br/index.html" target="_blank" className="col-span-6 lg:col-span-3 flex justify-center items-center">
+              <a href="https://www.fujifilmamericas.com.br/index.html" target="_blank" className="col-span-6 lg:col-span-3 mx-6 flex justify-center items-center">
                 <img src="//superbiz.site/storage/5cdb1980bd9f058dff8137e5/registroclientes/crop/0035fb2acb6d182b5613072a5bd332dd1678804925643.png" alt="Logo Parceiro" />
                 <div className="mt-6"></div>
               </a>
-              <a href="http://www.labor-med.com.br/" target="_blank" className="col-span-6 lg:col-span-3 flex justify-center items-center">
+              <a href="http://www.labor-med.com.br/" target="_blank" className="col-span-6 lg:col-span-3 mx-6 flex justify-center items-center">
                 <img src="//superbiz.site/storage/5cdb1980bd9f058dff8137e5/registroclientes/crop/05dac15f1aaf2050a95cbe09558c19db1563906872026.png" alt="Logo Parceiro" />
                 <div className="mt-6"></div>
               </a>
-              <a href="http://dioxide.com.br/" target="_blank" className="col-span-6 lg:col-span-3 flex justify-center items-center">
+              <a href="http://dioxide.com.br/" target="_blank" className="col-span-6 lg:col-span-3 flex justify-center mx-6 items-center">
                 <img src="//superbiz.site/storage/5cdb1980bd9f058dff8137e5/registroclientes/crop/0dcf56b9677067cd575cac57518335971563906976830.png" alt="Logo Parceiro" />
                 <div className="mt-6"></div>
               </a>
-              <a href="http://www.atemoh.com.br/" target="_blank" className="col-span-6 lg:col-span-3 flex justify-center items-center">
+              <a href="http://www.atemoh.com.br/" target="_blank" className="col-span-6 lg:col-span-3 flex justify-center mx-6 items-center">
                 <img src="//superbiz.site/storage/5cdb1980bd9f058dff8137e5/registroclientes/crop/acf9f7150c1737fd6b7003d714f5184f1563972937544.png" alt="Logo Parceiro" />
                 <div className="mt-6"></div>
               </a>
@@ -111,8 +111,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-10 bg-red-200">
-          <div className="container center-align">
+        <div className="mt-10 ">
+          <div className="flex flex-col text-center items-center m-auto justify-center">
             <h2 className="font-semibold text-3xl text-red-600">Venha nos fazer uma visita</h2>
             <div className="mt-5"></div>
             <p className="text-base text-gray-700">Rua Geraldo Agostinho Ramos, nº 103 - Jardim Paulista - Campo Grande - MS <br />
@@ -120,7 +120,6 @@ export default function Home() {
             Telefone: (67)3025-2637<br />
             Whatsapp: (67)99633-0267 / (67)99868-1123</p>
             <div className="mt-5"></div>
-            <a href="#" className="btn-large bg-gray-700 text-white">Saiba mais</a>
             <div className="mt-8"></div>
           </div>
           <div className="pd-60-lateral">
